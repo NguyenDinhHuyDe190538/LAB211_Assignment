@@ -18,7 +18,6 @@ class BubbleSortArray {
         arr = new int[size];
         Random rd = new Random();
         for (int i = 0; i < size; i++) {
-            // Sinh số ngẫu nhiên trong khoảng 1..range
             arr[i] = rd.nextInt(range) + 1;
         }
     }
@@ -44,3 +43,4 @@ class BubbleSortArray {
         }
     }
 }
+
