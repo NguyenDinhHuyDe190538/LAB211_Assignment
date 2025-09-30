@@ -14,7 +14,7 @@ public class Main {
         BubbleSortArray app = new BubbleSortArray();
 
         int size = val.getPositiveInt("Enter number of array: ");
-        int range = 10; // Có thể fix cứng range = 10 như ví dụ, hoặc cho người dùng nhập
+        int range = 10; 
         app.generateArray(size, range);
 
         app.displayArray("Unsorted array: ");
@@ -22,3 +22,4 @@ public class Main {
         app.displayArray("Sorted array: ");
     }
 }
+
