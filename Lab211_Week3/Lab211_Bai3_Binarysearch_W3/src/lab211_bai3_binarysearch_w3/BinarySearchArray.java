@@ -18,9 +18,9 @@ class BinarySearchArray {
         arr = new int[size];
         Random rd = new Random();
         for (int i = 0; i < size; i++) {
-            arr[i] = rd.nextInt(size) + 1; // random từ 1 đến size
+            arr[i] = rd.nextInt(size) + 1;
         }
-        Arrays.sort(arr); // sắp xếp mảng
+        Arrays.sort(arr); 
     }
 
     public void displayArray() {
@@ -37,4 +37,5 @@ class BinarySearchArray {
         }
         return -1;
     }
+
 }
